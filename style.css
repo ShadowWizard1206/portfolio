@@ -1,0 +1,97 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Um fundo leve, cor de céu claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007acc; /* Azul mais suave */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff7f50; /* Laranja suave para hover */
+    transform: scale(1.1); /* Um pequeno efeito de zoom no hover */
+}
+
+/* Estilo do conteúdo principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border: 3px solid #007acc; /* Adicionando uma borda azul ao redor da imagem */
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #555; /* Texto de cor mais suave */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1; /* Fundo leve e neutro */
+    margin-top: 20px;
+    border-top: 2px solid #007acc; /* Borda azul no topo do rodapé */
+}
+
+footer p {
+    font-size: 14px;
+    color: #666; /* Cor mais suave para o texto do rodapé */
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
